@@ -7,26 +7,15 @@ describe("fizzbuzz", function() {
   it("should return fizz when passing 3", function() {
     expect(fizzBuzz(3)).toEqual("fizz");
   });
+  it("should return fizz when passing 5", function() {
+    expect(fizzBuzz(5)).toEqual("buzz");
+  });
 
+  it("should return fizzbuzz when passing 15", function() {
+    expect(fizzBuzz(15)).toEqual("fizzbuzz");
+  });
+
+  it("should return fizzbuzz when passing 30", function() {
+    expect(fizzBuzz(30)).toEqual("fizzbuzz");
+  });
 });
-
-/*
-describe 'fizzbuzz method' do
-	context 'with valid input' do
-		it 'should return 1 when passing 1' do
-			expect(fizzbuzz(1)).to eq 1
-		end
-		it 'should return fizz when passing 3' do
-			expect(fizzbuzz(3)).to eq 'fizz'
-		end
-		it 'should return buzz when passing 5' do
-			expect(fizzbuzz(5)).to eq 'buzz'
-		end
-		it 'should return fizzbuzz when passing 15' do
-			expect(fizzbuzz(15)).to eq 'fizzbuzz'
-		end
-
-
-	end
-end
-*/

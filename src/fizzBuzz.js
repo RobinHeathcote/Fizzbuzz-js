@@ -1,6 +1,12 @@
 function fizzBuzz(number){
+  if (number%15 == 0){
+    return "fizzbuzz"
+  }
 	if (number%3 == 0){
-	return "fizz" 
+	return "fizz"
 	}
-	return number;
+  if (number%5 == 0){
+    return "buzz"
+  }
+    return number;
 }
